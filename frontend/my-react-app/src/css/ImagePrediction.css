@@ -1,0 +1,63 @@
+.image-prediction-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9eaec;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-prediction-container h1 {
+    font-size: 2.5rem; /* Increased font size */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Default color */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Letter spacing */
+}
+
+.image-prediction-container h1 span {
+    color: #00bbf0; /* Color for highlighted text */
+}
+
+.image-prediction-container input[type="file"] {
+    margin-bottom: 20px;
+    
+}
+
+.image-prediction-container button {
+    font-size: 1rem;
+    padding: 12px 24px; /* Larger padding */
+    color: #fff;
+    background-color: #00bbf0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.image-prediction-container button:hover {
+    background-color: #0057b3;
+    transform: scale(1.05); /* Enlarged button on hover */
+}
+
+.error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+.predicted-image-container {
+    margin-top: 20px;
+}
+
+.predicted-image-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.predicted-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
